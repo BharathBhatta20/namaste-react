@@ -1,13 +1,17 @@
-<html>
-    <body>
-        <h1>
-            <p id="html-display">Hello World</p>
-            <p id="js-display"></p>
-            <p id="root"></p>
-        </h1>
-    </body>
-    <script >
-        document.getElementById("js-display").innerHTML = "Hello World from JS"
-    </script>
-    <script type="module" src="./App.js"></script>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Namaste React</title>
+  </head>
+  <body>
+    <div id="root" class="root">
+      <h1>Not Rendered</h1>
+    </div>
+
+    <script type="module" src="./src/App.js"></script>
+  </body>
 </html>
